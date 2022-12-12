@@ -1,11 +1,11 @@
 package com.example.applicationactivities
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -14,9 +14,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val actionCallButton: Button = findViewById(R.id.action_call_button)
-
         val infoToUser: TextView = findViewById (R.id.tvInfoToUser)
-
         val editNumber: EditText = findViewById(R.id.editNumber)
 
         infoToUser.setOnClickListener {
